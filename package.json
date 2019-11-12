@@ -1,0 +1,38 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "description": "build RESTful API on Node.js",
+  "main": "./bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaiYanSoe621/node-app.git"
+  },
+  "keywords": [
+    "restful",
+    "node.js",
+    "mongoose",
+    "express"
+  ],
+  "author": "lionking",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WaiYanSoe621/node-app/issues"
+  },
+  "homepage": "https://github.com/WaiYanSoe621/node-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "mongoose": "^5.7.10",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  }
+}
